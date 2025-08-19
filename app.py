@@ -15,7 +15,7 @@ creds = service_account.Credentials.from_service_account_info(creds_info)
 client = gspread.authorize(creds)
 
 # Replace with the exact name of your sheet
-SHEET_NAME = "Your Spreadsheet Name"
+SHEET_NAME = "Copy of BTC/ETH Treasuries MNAV"
 worksheet = client.open(SHEET_NAME).sheet1
 
 # Get all values
